@@ -21,3 +21,16 @@
   margin-top:20px;
   min-height:100vh;
 }
+
+.Add_btn{
+  position: fixed ;
+  bottom:20px;
+  right:20px;
+  border:none;
+  padding:15px 20px;
+  background-color: #B8D8B8 ;
+  color:white;
+  font-size:1.1rem;
+  border-radius:4px;
+  
+}

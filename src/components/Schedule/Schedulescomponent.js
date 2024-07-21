@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ItemSchedule from '../item-schedule/ItemSchedule.js';
+ // Ensure this import is not commented out
 
-const Schedulescomponent = ({ selectedDay, scheduleList, onDelete }) => {
+const SchedulesComponent = ({ selectedDay, scheduleList, onDelete }) => {
   const filteredSchedules = scheduleList
     .filter(schedule => schedule.Day === selectedDay)
     .sort((a, b) => a.value - b.value);
@@ -20,8 +21,10 @@ const Schedulescomponent = ({ selectedDay, scheduleList, onDelete }) => {
           onDelete={onDelete}
         />
       ))}
+      
+
     </div>
   );
 };
 
-export default Schedulescomponent;
+export default SchedulesComponent;
