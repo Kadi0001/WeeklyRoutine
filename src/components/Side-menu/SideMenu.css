@@ -1,0 +1,60 @@
+.menu-container {
+  position: relative;
+}
+
+.menu-button {
+  font-size: 24px;
+  background-color: transparent;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+ 
+}
+
+.side-menu {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  z-index: 1000;
+}
+
+.side-menu.open {
+  left: 0;
+}
+
+.menu-item {
+  padding: 13px 16px;
+  text-align: left;
+  font-size: 18px;
+  background-color: white;
+  border: none;
+  width: 100%;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.menu-item.selected {
+  background-color: #F7E8A1;
+}
+.menu-item:hover {
+  background-color: #F7E8A1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}

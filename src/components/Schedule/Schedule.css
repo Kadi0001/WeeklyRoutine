@@ -1,0 +1,23 @@
+.App > div:nth-child(1){
+  background-color:#F7E8A1;
+}
+
+
+.schedule_container{
+  background-color:#F7E8A1;
+}
+.schedule_container h1{
+  margin-left:20px;
+  font-size: 1.4rem;
+}
+.schedule_container p{
+  margin-left:20px;
+  margin-top:5px;
+  font-size: 0.8rem;
+}
+.schedule_list_container{
+  background-color:white;
+  border-radius: 10px 10px 0 0;
+  margin-top:20px;
+  min-height:100vh;
+}
